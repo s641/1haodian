@@ -1,0 +1,285 @@
+@charset 'utf-8';
+.public_width {
+  width: 1070px;
+  margin: 0px auto;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+body {
+  background: white !important;
+}
+.warp {
+  width: 100%;
+  height: auto;
+  background: white;
+}
+.warp .header .top {
+  height: 32px;
+  line-height: 32px;
+  background: #f4f4f4;
+  border-bottom: 1px solid #e5e5e5;
+  box-sizing: border-box;
+}
+.warp .header .top .public_width {
+  overflow: hidden;
+}
+.warp .header .top .fl div {
+  float: left;
+}
+.warp .header .top .fl div > a {
+  letter-spacing: 1px;
+  margin-right: 30px;
+  font-size: 12px;
+  position: relative;
+}
+.warp .header .top .fl div > a span {
+  color: #ff4040;
+}
+.warp .header .top .fl div > a:hover {
+  color: #ff4040;
+}
+.warp .header .top .fl div .address {
+  width: 723px;
+  height: 408px;
+  border: 1px solid #dbdbdb;
+  background: #fff;
+  position: absolute;
+  top: 32px;
+  left: 148px;
+  padding: 6px 0px 0px 20px;
+  box-sizing: border-box;
+  display: none;
+  z-index: 99999;
+}
+.warp .header .top .fl div .address > span {
+  position: absolute;
+  top: 17px;
+  right: 13px;
+  color: #dbdbdb;
+  z-index: 10;
+}
+.warp .header .top .fl div .address p {
+  font-size: 12px;
+  color: #666666;
+  position: relative;
+}
+.warp .header .top .fl div .address p span {
+  color: #dee7f3;
+  position: absolute;
+  left: 85px;
+  top: 10px;
+  font-size: 16px;
+}
+.warp .header .top .fl div .address p input {
+  border: 1px solid #cccccc;
+  height: 28px;
+  margin-left: 18px;
+  text-indent: 28px;
+}
+.warp .header .top .fl div .address p input::placeholder {
+  font-size: 12px;
+  color: #757575;
+}
+.warp .header .top .fl div .address p input:active,
+.warp .header .top .fl div .address p input:visited {
+  border: 2px solid skyblue;
+}
+.warp .header .top .fl div .address .hot_city {
+  width: 100%;
+  margin-bottom: 14px;
+}
+.warp .header .top .fl div .address .hot_city p {
+  float: left;
+}
+.warp .header .top .fl div .address .hot_city > ul {
+  width: 90%;
+  overflow: hidden;
+}
+.warp .header .top .fl div .address .hot_city > ul li {
+  float: left;
+}
+.warp .header .top .fl div .address .hot_city > ul li a {
+  display: inline-block;
+  padding: 0px 12px;
+  font-size: 12px;
+}
+.warp .header .top .fl div .address .hot_city > ul li a:hover {
+  color: #ff4040;
+}
+.warp .header .top .fl div .address .words p {
+  float: left;
+}
+.warp .header .top .fl div .address .words > ul {
+  margin-top: 5px;
+  float: left;
+}
+.warp .header .top .fl div .address .words > ul li {
+  float: left;
+  width: 45px;
+  height: 20px;
+  margin-right: 5px;
+  background: #eeeeee;
+  line-height: 20px;
+  text-align: center;
+  font-size: 12px;
+}
+.warp .header .top .fl div .address .words > ul li:hover {
+  background: #ff4040;
+}
+.warp .header .top .fl div .address .words > ul li a:hover {
+  font-size: 12px;
+  color: white;
+}
+.warp .header .top .fl div .address .words .address_info {
+  clear: both;
+  height: 225px;
+  overflow: auto;
+}
+.warp .header .top .fl div .address .words .address_info .fl {
+  width: 60px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+}
+.warp .header .top .fl div .address .words .address_info .fr {
+  width: 622px;
+  height: 80px;
+}
+.warp .header .top .fl div .address .words .address_info .fr > ul li a {
+  display: inline-block;
+  padding: 0px 12px;
+  font-size: 12px;
+}
+.warp .header .top .fl div .address .words .address_info .fr > ul li a:hover {
+  color: #ff4040;
+}
+.warp .header .top .fl > ul {
+  float: left;
+  position: relative;
+  margin-bottom: 0px;
+}
+.warp .header .top .fl > ul li span {
+  color: #ff4040;
+}
+.warp .header .top .fl > ul li > a {
+  font-size: 12px;
+}
+.warp .header .top .fl > ul li > a:hover {
+  color: #ff4040;
+}
+.warp .header .top .fr {
+  margin-bottom: 0px;
+}
+.warp .header .top .fr li {
+  float: left;
+  margin-right: 19px;
+  letter-spacing: 2px;
+}
+.warp .header .top .fr li a {
+  font-size: 12px;
+}
+.warp .header .top .fr li:nth-of-type(1) i {
+  color: #ff4040;
+}
+.warp .header .top .fr li:nth-of-type(2) {
+  color: #aaaaaa;
+}
+.warp .header .top .fr li:nth-of-type(2) a:hover {
+  color: #ff4040;
+}
+.warp .header .top .fr li:nth-of-type(3) span,
+.warp .header .top .fr li:nth-of-type(4) span {
+  color: #aaaaaa;
+}
+.warp .header .top .fr li:nth-of-type(3) a:hover,
+.warp .header .top .fr li:nth-of-type(4) a:hover {
+  color: #ff4040;
+}
+.warp .header .top .fr li:nth-of-type(3) a:hover span,
+.warp .header .top .fr li:nth-of-type(4) a:hover span {
+  color: #ff4040;
+}
+.warp .header .h_navbar {
+  background: white;
+}
+.warp .header .h_navbar .logo {
+  float: left;
+}
+.warp .header .h_navbar .logo h1 {
+  overflow: hidden;
+  margin: 0px;
+}
+.warp .header .h_navbar .logo h1 a {
+  width: 298px;
+  height: 143px;
+}
+.warp .header .h_navbar .logo h1 a img {
+  width: 100%;
+  height: 100%;
+  vertical-align: top;
+}
+.warp .header .h_navbar .nav_search {
+  float: left;
+  padding: 50px 7px 18px 123px;
+}
+.warp .header .h_navbar .nav_search .search_group {
+  position: relative;
+}
+.warp .header .h_navbar .nav_search .search_group input {
+  width: 514px;
+  height: 44px;
+  border: 1px solid #DBDBDB;
+  border-radius: 17px;
+}
+.warp .header .h_navbar .nav_search .search_group input::placeholder {
+  color: #757575;
+  font-size: 14px;
+  text-indent: 35px;
+}
+.warp .header .h_navbar .nav_search .search_group input:hover {
+  border: 1px solid  #ff4040;
+}
+.warp .header .h_navbar .nav_search .search_group span {
+  position: absolute;
+  right: 24px;
+  top: 13px;
+  font-size: 18px;
+  color: #333333;
+}
+.warp .header .h_navbar .nav_search .hotWords {
+  width: 514px;
+  height: 32px;
+  line-height: 32px;
+  padding-left: 30px;
+}
+.warp .header .h_navbar .nav_search .hotWords > li {
+  float: left;
+}
+.warp .header .h_navbar .nav_search .hotWords > li > a {
+  height: 100%;
+  padding: 0px 5px;
+  display: inline-block;
+}
+.warp .header .h_navbar .shopping_cart {
+  float: left;
+  margin-top: 50px;
+  margin-left: 5px;
+  border: 1px solid #DBDBDB;
+  width: 123px;
+  height: 43px;
+  line-height: 43px;
+  text-align: center;
+  border-radius: 17px;
+}
+.warp .header .h_navbar .shopping_cart a {
+  color: #333333;
+  font-size: 15px;
+}
+.warp .header .h_navbar .shopping_cart span {
+  color: #333333;
+  font-size: 15px;
+}
